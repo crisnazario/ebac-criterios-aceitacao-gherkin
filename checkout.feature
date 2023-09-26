@@ -25,7 +25,7 @@
             | @email.com       | "Verifique se e-mail foi preenchido corretamente" |
 
 
-            Esquema do Cenário: Validar campos vazios
+            Cenário: Validar campos vazios
             Quando eu não digitar informações em email, senha
             E tentar realizar o cadastro
             Então deverá ser retornada mensagem de erro "É obrigatório o preenchimento dos campos e-mail e senha"
